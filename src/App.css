@@ -1,0 +1,113 @@
+body{
+  background-image: url('./images/Group\ 1171276264.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FDFDFD;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.polit{
+  width: 40px;
+  height: 40px;
+  color: white;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-linear-gradient(left , #4DB474 ,#E9D85D);
+}
+.input-search{
+  margin: 30px auto;
+  width: 40%;
+  background-color: white;
+  border-radius: 16px;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 12px;
+
+}
+.type{
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #C9C9C9;
+  color: #C9C9C9;
+}
+.type:hover{
+  color: #03AA77;
+  background-color: #FBE09C;
+}
+.input-search::placeholder{
+  font-weight: bold;
+}
+.icon-search{
+  position: absolute;
+  top: 12px;
+  left: 32%;
+}
+.sora{
+  background-color: #D2D2D2;
+  color: #696969;
+  padding: 12px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.span-sora{
+   font-size: 10px;
+}
+.float-left{
+  float: left;
+}
+.w-80{
+  max-width: 80% !important;
+}
+.sora1{
+  background-color: #D2D2D2;
+  color: #696969;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  background-color: #03AA77;
+  color: white;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.mr-35{
+  margin-right: 8px;
+}
+.span-absolute{
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  font-weight: bold;
+}
+.mt-4{
+  margin-top: 12px 
+}
+.fs-14{
+  font-size: 14px;
+}
+.sora-div{
+  background-color: white;
+  width: 300px;
+  margin-bottom: 20px;
+  max-height: 79px;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px 1px gray;
+}
